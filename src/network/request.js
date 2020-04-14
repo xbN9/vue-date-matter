@@ -8,7 +8,7 @@ export function request(config) {
 
   //2、axios的拦截器
   instance.interceptors.request.use(config => {
-    config.headers = {Authorization:"123456789","Access-Control-Allow-Origin":"*"}
+    config.headers = {Authorization:"13456261505","Access-Control-Allow-Origin":"*"}
     // console.log(config);
     return config
 
